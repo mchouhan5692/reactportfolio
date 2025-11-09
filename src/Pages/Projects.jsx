@@ -3,15 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   const projectList = [
-    {
-      name: "Heuristic Puzzle Forge",
-      description:
-        "Our project aims to develop a gaming website Heuristic Puzzle Forge for students and developers who can learn UI/UX design by playing this game. While encouraging strategy, skill development, and a sense of accomplishment, the game is made to provide enjoyment, excitement, and much knowledge about UI/UX Design",
-      tech: ["React", "DnD", "Hooks", "Confetti"],
-      github: "https://github.com/prakashmariappan/callofcreative",
-      live: "https://heuristicpuzzleforge.netlify.app/",
-      image: "/project1.png",  // Replace with project image
-    },
+    
     {
       name: "My Personal Portfolio",
       description:
@@ -21,15 +13,7 @@ const Projects = () => {
       live: "https://ragasree-thatipamula.netlify.app/",
       image: "/project2.png", // Replace with project image
     },
-    {
-      name: "FocusFlow",
-      description:
-        "FocusFlow is a sleek, animated productivity app designed to help stay focused and organized using the Pomodoro technique. Built with React and styled using Tailwind CSS",
-      tech: ["React", "Tailwind", "Html","CSS","JavaScript"],
-      github: "https://github.com/ragasree123/FocusFlow",
-      live: "https://appfocusflow.netlify.app/",
-      image: "/project3.png", // Replace with project image
-    },
+    
   ];
 
   return (
